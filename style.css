@@ -1,0 +1,120 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Image/pexels-olly-3769146.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} 
+
+.logo a{
+    color: rgb(255, 255, 255); 
+    padding: 0px 20px ;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0,7);
+}
+
+.logo span{
+    color: rgb(153, 38, 9);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px ;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px ;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background: floralwhite;
+    color: black;
+    border: 4px;
+    border-color: brown;
+}
+ 
+ul li.active a{
+    background: floralwhite;
+    color: black;
+}
+
+.principale{
+    max-width: 114ren;
+    margin: 0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre h1{
+    color: antiquewhite;
+    font-size: 70px;
+   font-family: against;
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouton a{
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid blanchedalmond;
+    padding: 10px 20px ;
+}
+
+.btn{
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: rgb(255, 0, 0);
+    border: 2px;
+
+}
+
+.p{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p{
+    color: rgb(173, 211, 245);
+    text-transform: uppercase;
+    font-family: motserat;
+}
+
+
